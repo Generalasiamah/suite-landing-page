@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+    padding: 50px 166px;
+    background-color: #F2F2F2;
+    font-family: 'Epilogue', sans-serif;
+    position: relative;
+}
+
+.header {
+    height: 56px;
+    width: 1108.85px;
+    margin: auto;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.top-most-button{
+    position:absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    height: 56px;
+    width: 219px;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.1599999964237213px;
+    border-radius: 7px;
+    color: #172339;
+}
+
+.first-section{
+    margin: 79px 0 142.44px 0;
+    position: relative;
+    width: 64rem;
+    height: 600px;
+}
+
+.description{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 405px;
+    width: 635px;
+;
+
+}
+
+.metrics{
+    position:absolute;
+    height: 375px;
+    width: 190px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-60%);
+    text-indent: 96px;
+   
+}
+
+.phone{
+    position: absolute;
+    left: 474px;
+    width: 350px;
+    height: 600px;
+    z-index: -1;
+    margin-right: 96px;
+}
+
+.arch{
+    position: absolute;
+    top: 34px;
+    left: 290px;
+    height: 36px;
+    width: 287px;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.main-description{
+    margin: 0 0 40px 0;
+    height: 158px;
+    width: 635px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: #172339;
+
+}
+
+.second-description{
+    width: 350px;
+    height: 96px;
+    color: #49566D;
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+
+.second-button{
+    height: 61px;
+    width: 256px;
+    margin-top: 52px;
+    border-radius: 7px;
+    background-color: #172339;
+    font-family: Epilogue;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+   color: #FAF8F6;
+}
+
+h2{
+    height: 56px;
+    width: 190px;
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-bottom: 1px;
+    color: #172339;
+
+
+
+}
+
+h5{
+    margin: 0;
+    height: 26px;
+    width: 190px;
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    text-align: left;
+    color: #49566D;
+}
+
+.second-section{
+    position: relative;
+    height: 589.5569458007812px;
+    width: 1109px;
+    
+
+}
+
+.jeremy {
+    position: absolute;
+   left: 121.49px;
+   z-index: 1;
+   
+}
+
+.blur{
+    position: absolute;
+    left: 43.49000000000001px;
+    bottom: -122px;
+    z-index: 0;
+
+}
+
+.testimony {
+    position: absolute;
+    height: 545px;
+    width: 1109px;
+    background: #172339;
+    bottom: 0;
+    border-radius: 15px;
+    z-index: -1;
+    
+
+}
+
+.text-placement {
+    position: absolute;
+    right: 125px;
+    top : 50%;
+    transform: translateY(-50%); 
+    height: 369px;
+    width: 350px;
+
+
+}
+
+h3{
+    height: 56px;
+    width: 308px;
+    font-family: Epilogue;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #FAF8F6;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    margin: 0 0 40px 0;
+
+
+}
+
+h4 {
+    height: 175px;
+    width: 350px;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #F3EDE7;
+    margin: 0;
+
+    
+
+}
+
+.second-curve {
+    position: absolute;
+    top: 196.15px;
+    right: 527.75px;
+    width: 64.05px;
+    height: 52px;
+}
+
+footer {
+    background: #F3EDE7;
+    position: absolute;
+    width: 1440px;
+    height: 464px;
+    left: 0px;
+    top: 1252px;
+    z-index: -2;
+    
+}
+
+.footer-div{
+    position: absolute;
+    height: 32px;
+    width: 1109px;
+    left: 167px;
+    bottom: 72px;
+    border-radius: 0px;
+
+}
+
+h6{
+    text-align: center;
+    display: inline;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    bottom: 0px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.0833333358168602px;
+    text-align: center;
+    color: #49566D;
+    height: 32px;
+    width: 125px;
+
+
+
+
+}
+
+.media{
+    height: 20px;
+    width: 116px;
+    text-align: right;
+    height: 20px;
+    width: 116px;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.fb{
+    margin-right: 28px;
+}
+
+.twt {
+    margin-right: 28px;
+}
