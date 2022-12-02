@@ -35,6 +35,11 @@ body{
     color: #172339;
 }
 
+.top-most-button:hover{
+    background-color: #172339;
+    color: #FAF8F6;
+}
+
 .first-section{
     margin: 79px 0 142.44px 0;
     position: relative;
@@ -121,6 +126,10 @@ h1 {
     line-height: 32px;
     letter-spacing: -0.18000000715255737px;
    color: #FAF8F6;
+   border-width: 0;
+}
+.second-button:hover{
+    background-image: linear-gradient(to bottom right, #A060FF, #CB30E3, #FFA84E);
 }
 
 h2{
@@ -278,10 +287,6 @@ h6{
     color: #49566D;
     height: 32px;
     width: 125px;
-
-
-
-
 }
 
 .media{
@@ -301,4 +306,16 @@ h6{
 
 .twt {
     margin-right: 28px;
+}
+
+.twt:hover{
+    opacity: 50%;
+}
+
+.ig:hover{
+    opacity: 50%;
+}
+
+.fb:hover{
+    opacity: 50%;
 }
