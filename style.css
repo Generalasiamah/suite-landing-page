@@ -383,6 +383,9 @@ and (max-width: 768px) {
 
     body{
         padding: 50px 16px;
+        width: 375px;
+      
+
     }
 
     .top-most-button{
