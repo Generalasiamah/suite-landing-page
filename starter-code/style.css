@@ -41,7 +41,7 @@ body{
 }
 
 .first-section{
-    margin: 79px 0 142.44px 0;
+    margin: 79px auto 142.44px auto;
     position: relative;
     width: 64rem;
     height: 600px;
@@ -64,7 +64,8 @@ body{
     right: 0;
     top: 50%;
     transform: translateY(-60%);
-    text-indent: 96px;
+    text-align: center;
+   
    
 }
 
@@ -75,6 +76,14 @@ body{
     height: 600px;
     z-index: -1;
     margin-right: 96px;
+}
+
+.tablet-phone{
+    display: none;
+}
+
+.mobile-phone{
+    display: none;
 }
 
 .arch{
@@ -134,13 +143,12 @@ h1 {
 
 h2{
     height: 56px;
-    width: 190px;
+    width: 344px;
     font-family: Epilogue;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: -0.5px;
-    text-align: left;
     margin-bottom: 1px;
     color: #172339;
 
@@ -151,13 +159,12 @@ h2{
 h5{
     margin: 0;
     height: 26px;
-    width: 190px;
+    width: 344px;
     font-family: Epilogue;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 2.5px;
-    text-align: left;
     color: #49566D;
 }
 
@@ -174,6 +181,14 @@ h5{
    left: 121.49px;
    z-index: 1;
    
+}
+
+.tablet-jeremy{
+    display: none;
+}
+
+.phone-jeremy{
+    display: none;
 }
 
 .blur{
@@ -318,4 +333,141 @@ h6{
 
 .fb:hover{
     opacity: 50%;
+}
+
+@media only screen  
+and (min-width: 600px) 
+and (max-width: 768px) {
+    .phone {
+       display: none; 
+    }
+
+    .tablet-phone{
+        display: block;
+    }
+
+    
+}
+
+@media only screen  
+  and (max-width: 600px) {
+    .phone {
+       display: none; 
+    }
+
+    .mobile-phone{
+        display: flex;
+        position: absolute;
+        height: 240px;
+        width: 343px;
+        left: 0px;
+        top: 379px;
+    }
+
+    .jeremy{
+        display: none;
+    }
+
+    .phone-jeremy{
+        display: block;
+       
+    
+
+
+    }
+
+    .header{
+        width: 354px;
+        height: 48px;
+    }
+
+    body{
+        padding: 50px 16px;
+    }
+
+    .top-most-button{
+        height: 48px;
+        width: 182px;
+        font-family: Epilogue;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.14000000059604645px;
+    }
+
+    .first-section{
+        width: 343.5px;
+    }
+
+    .arch{
+        position: absolute;
+        height: 102px;
+        width: 291.47222900390625px;
+        left: 87px;
+        top: -39px;
+        
+        transform: scale(0.5);
+
+    }
+    .description{
+        position: absolute;
+        height: 325.3243713378906px;
+        width: 343.5px;
+        left: 0px;
+        top: 178px;
+        border-radius: 0px;
+
+    }
+    .main-description{
+        font-family: Epilogue;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.5277777910232544px;
+        text-align: left;
+        margin-bottom: 0;
+
+    }
+
+    .second-description{
+        position: absolute;
+        height: 84px;
+        width: 343px;
+        left: 0px;
+        top: 114px;
+       
+
+        font-family: Epilogue;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.08888889104127884px;
+        text-align: left;
+
+    }
+
+    .second-button{
+        position: absolute;
+    top: 179zpx;
+    
+    }
+
+    .metrics{
+        position: absolute;
+        height: 313px;
+        width: 344px;
+        left: 0;
+        top: 847px;
+        
+    }
+
+    .second-section{
+        height: 929px;
+        width: 573px;
+        left: 0px;
+        top: 1174px;
+        border-radius: 0px;
+
+
+    }
 }
