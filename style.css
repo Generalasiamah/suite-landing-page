@@ -370,22 +370,19 @@ and (max-width: 768px) {
 
     .phone-jeremy{
         display: block;
-       
-    
-
+        left: 50%;
+        transform: translateX(50%);
 
     }
 
     .header{
-        width: 354px;
+        width: 100vw;
         height: 48px;
     }
 
     body{
         padding: 50px 16px;
         width: 375px;
-      
-
     }
 
     .top-most-button{
@@ -396,10 +393,12 @@ and (max-width: 768px) {
         font-weight: 700;
         line-height: 24px;
         letter-spacing: -0.14000000059604645px;
+        position: absolute;
+        right: 31px;
     }
 
     .first-section{
-        width: 343.5px;
+        width: 100vw;
     }
 
     .arch{
@@ -407,11 +406,11 @@ and (max-width: 768px) {
         height: 102px;
         width: 291.47222900390625px;
         left: 87px;
-        top: -39px;
-        
+        top: -39px;   
         transform: scale(0.5);
 
     }
+
     .description{
         position: absolute;
         height: 325.3243713378906px;
@@ -451,7 +450,7 @@ and (max-width: 768px) {
 
     .second-button{
         position: absolute;
-    top: 179zpx;
+    top: 189px;
     
     }
 
@@ -466,11 +465,74 @@ and (max-width: 768px) {
 
     .second-section{
         height: 929px;
-        width: 573px;
+        width: 100vw;
         left: 0px;
-        top: 1174px;
+        top: 358px;
         border-radius: 0px;
+        margin-left: -50px;
+    }
 
+    .testimony{
+        width: inherit;
+        bottom: -30px;
+        left: 34.4px;
+        height: 783px;
+        
+    }
+
+    .text-placement{
+        width: inherit;
+        height: 48px;
+        left: 0px;
+        top: 382px;
+        
+    }
+
+    h3{
+        font-family: Epilogue;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.4166666567325592px;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    h4{
+        font-family: Epilogue;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.09000000357627869px;
+        text-align: center;
+
+    }
+    .second-curve{
+        left: 50%;
+        top: 442px;
+        border-radius: 0px;
+    }
+
+    .blur{
+        display: none;
+    }
+
+    footer{
+        width: 100vw;
+        top: 2218px;
+        height: 297px;
+    }
+
+    .footer-div{
+        width: inherit;
+        height: inherit;
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .logo{
+        position: relative;
 
     }
 }
