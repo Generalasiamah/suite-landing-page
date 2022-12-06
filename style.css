@@ -531,8 +531,20 @@ and (max-width: 768px) {
         left: 0;
     }
 
-    .logo{
-        position: relative;
-
+    .second-logo{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 25%;
     }
+
+    h6{
+        bottom: 40%;
+    }
+
+    .media{
+        right: 50%;
+        transform: translateX(50%);
+        top: 75%;
+    }    
 }
