@@ -211,7 +211,7 @@ h5{
 
 }
 
-.text-placement {
+/* .text-placement {
     position: absolute;
     right: 125px;
     top : 50%;
@@ -220,7 +220,7 @@ h5{
     width: 350px;
 
 
-}
+} */
 
 h3{
     height: 56px;
@@ -480,13 +480,13 @@ and (max-width: 768px) {
         
     }
 
-    .text-placement{
+    /* .text-placement{
         width: inherit;
         height: 48px;
         left: 0px;
         top: 382px;
-        
-    }
+         */
+    
 
     h3{
         font-family: Epilogue;
@@ -496,6 +496,12 @@ and (max-width: 768px) {
         letter-spacing: -0.4166666567325592px;
         text-align: center;
         margin-left: 40px;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+
     }
 
     h4{
@@ -505,6 +511,10 @@ and (max-width: 768px) {
         line-height: 32px;
         letter-spacing: 0.09000000357627869px;
         text-align: center;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%);
 
     }
     .second-curve{
