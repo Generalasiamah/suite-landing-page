@@ -1,3 +1,9 @@
+
+/* html, body{
+    overflow-x: hidden;
+} */
+
+
 body{
     margin: 0;
     padding: 50px 166px;
@@ -7,9 +13,7 @@ body{
     
 }
 
-html body{
-    overflow-x: hidden;
-}
+
 
 .header {
     height: 56px;
@@ -402,7 +406,7 @@ and (max-width: 768px) {
         line-height: 24px;
         letter-spacing: -0.14000000059604645px;
         position: absolute;
-        right: 31px;
+        right: 66px;
     }
 
     .first-section{
@@ -508,7 +512,7 @@ and (max-width: 768px) {
         text-align: center;
         margin-left: 40px;
         position: absolute;
-        top: 58%;
+        top: 48%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -523,7 +527,7 @@ and (max-width: 768px) {
         letter-spacing: 0.09000000357627869px;
         text-align: center;
         position: absolute;
-        top: 69%;
+        top: 59%;
         left: 50%;
         transform: translateX(-50%);
 
