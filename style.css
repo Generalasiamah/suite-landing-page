@@ -359,7 +359,7 @@ and (max-width: 768px) {
 }
 
 @media only screen  
-  and (max-width: 600px) {
+  and (max-width: 400px) {
     .phone {
        display: none; 
     }
@@ -393,8 +393,11 @@ and (max-width: 768px) {
 
     body{
         padding: 50px 16px;
-        width: 100vw;
-        
+        width: 100vw;   
+    }
+
+    html, body{
+        overflow-x: hidden;
     }
 
     .top-most-button{
