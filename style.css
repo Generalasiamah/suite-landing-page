@@ -359,7 +359,7 @@ and (max-width: 768px) {
 }
 
 @media only screen  
-  and (max-width: 400px) {
+  and (max-width: 500px) {
     .phone {
        display: none; 
     }
@@ -393,7 +393,7 @@ and (max-width: 768px) {
 
     body{
         padding: 50px 16px;
-        width: 100vw;   
+        width: 90vw;   
     }
 
     html, body{
@@ -494,7 +494,7 @@ and (max-width: 768px) {
         left: 50%;
         transform: translateX(-50%);
         height: 783px;
-        margin-left: -8px;
+        margin-left: -4px;
         
     }
 
