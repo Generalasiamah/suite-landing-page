@@ -4,6 +4,11 @@ body{
     background-color: #F2F2F2;
     font-family: 'Epilogue', sans-serif;
     position: relative;
+    
+}
+
+html body{
+    overflow-x: hidden;
 }
 
 .header {
@@ -370,21 +375,22 @@ and (max-width: 768px) {
 
     .phone-jeremy{
         display: block;
+        position: absolute;
         left: 50%;
-        transform: translateX(50%);
+        transform: translateX(-50%);
 
     }
 
     .header{
         width: 404px;
         height: 48px;
-        margin: 0;
+        margin-right: auto;
     }
 
     body{
         padding: 50px 16px;
         width: 100vw;
-        overflow-x: hidden;
+        
     }
 
     .top-most-button{
@@ -400,7 +406,7 @@ and (max-width: 768px) {
     }
 
     .first-section{
-        width: 100vw;
+        width: 404px;
     }
 
     .arch{
@@ -471,14 +477,17 @@ and (max-width: 768px) {
         left: 0px;
         top: 358px;
         border-radius: 0px;
-        margin-left: -50px;
+        margin-left: -16px;
     }
 
     .testimony{
-        width: 404px;
+        width: 100vw;
         bottom: -30px;
-        left: 34.4px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         height: 783px;
+        margin-left: -8px;
         
     }
 
@@ -499,7 +508,7 @@ and (max-width: 768px) {
         text-align: center;
         margin-left: 40px;
         position: absolute;
-        top: 46%;
+        top: 58%;
         left: 50%;
         transform: translateX(-50%);
         margin: 0;
@@ -514,13 +523,14 @@ and (max-width: 768px) {
         letter-spacing: 0.09000000357627869px;
         text-align: center;
         position: absolute;
-        top: 60%;
+        top: 69%;
         left: 50%;
         transform: translateX(-50%);
 
     }
     .second-curve{
         left: 50%;
+        transform: translateX(-50%);
         top: 442px;
         border-radius: 0px;
     }
@@ -530,7 +540,7 @@ and (max-width: 768px) {
     }
 
     footer{
-        width: 404px;
+        width: 100vw;
         top: 2218px;
         height: 297px;
     }
