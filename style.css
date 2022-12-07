@@ -347,19 +347,233 @@ h6{
 @media only screen  
 and (min-width: 600px) 
 and (max-width: 768px) {
+    
+    
+    body{
+        padding: 50px 32px; 
+    }
+
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .header{
+        width: 100%;
+        height: 48px;
+        margin-right: auto;
+    }
+    
+    .first-section{
+        width: 100%;
+    }
+    
+    
+    
     .phone {
        display: none; 
     }
 
     .tablet-phone{
         display: block;
+        position: absolute;
+        right: 0;
+        height: 482px;
+        width: 281px;
+        z-index: -1;
     }
 
+    .description{
+        position: absolute;
+        height: 325.3243713378906px;
+        width: 343.5px;
+        left: 0px;
+        top: 259px;
+        border-radius: 0px;
+
+    }
+
+    .main-description{
+        font-family: Epilogue;
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: -0.5277777910232544px;
+        text-align: left;
+        margin-bottom: 0;
+
+    }
+
+    .second-description{
+        position: absolute;
+        height: 84px;
+        width: 343px;
+        left: 0px;
+        top: 154px;
+        font-family: Epilogue;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.08888889104127884px;
+        text-align: left;
+
+    }
+
+    .arch{
+        position: absolute;
+        height: 102px;
+        width: 302.47222900390625px;
+        left: 170px;
+        top: 31px;   
+        transform: scale(0.7);
+
+    }
+    .second-button{
+        position: absolute;
+    top: 229px;
+    }
+
+    .metrics{
+        position: absolute;
+        height: 91px;
+        width: 100%;
+        left: 0;
+        top: 609px;
+        padding-left: 41px;
+    }
+
+    .metrics-text-two{
+        display: inline;
+        position: relative;
+        top: 30px;
+        right: 95px;
+    }
+
+    .metrics-text-one{
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .companies{
+        left: -113px;
+    }
+    .languages{
+        left: -87px;
+    }
+
+    .second-section{
+        height: 929px;
+        width: 100%;
+        left: 0px;
+        top: 0;
+        border-radius: 0px;
+        
+    }
+
+    .testimony{
+        width: 100%;
+        bottom: -30px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 783px;
+        
+        
+    }
+    .jeremy{
+        display: none;
+    }
+
+    .phone-jeremy{
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+
+    }
+
+    /* .text-placement{
+        width: inherit;
+        height: 48px;
+        left: 0px;
+        top: 382px;
+         */
     
+
+    h3{
+        font-family: Epilogue;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.4166666567325592px;
+        text-align: center;
+        margin-left: 40px;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+
+    }
+
+    h4{
+        font-family: Epilogue;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.09000000357627869px;
+        text-align: center;
+        position: absolute;
+        top: 59%;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .second-curve{
+        left: 50%;
+        transform: translateX(-50%);
+        top: 442px;
+        border-radius: 0px;
+    }
+
+    .blur{
+        z-index: 0;
+        bottom: 380px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    footer{
+        width: 100%;
+        top: 1312px;
+        height: 749px;
+    }
+
+    .footer-div{
+        width: 100%;
+        height: 32px;
+        position: absolute;
+        bottom: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 36px;
+    }
+
+    .media{
+        bottom: 50%;
+        transform: translateY(50%);
+        right: 32px;
+    }
+
+    .twt{
+        
+        bottom: 50%;
+        transform: translateY(9%);
+        left
+    }
 }
 
 @media only screen  
-  and (max-width: 500px) {
+  and (max-width: 600px) {
     .phone {
        display: none; 
     }
@@ -392,8 +606,7 @@ and (max-width: 768px) {
     }
 
     body{
-        padding: 50px 16px;
-        width: 90vw;   
+        padding: 50px 32px;   
     }
 
     html, body{
