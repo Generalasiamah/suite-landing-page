@@ -19,4 +19,13 @@ subtle yet makes for a beautiful outlook. The users of your app are meant to be 
 
 <br> Quick Start: <br>
 ---
-- Clone the repo: ***clone https://github.com/Generalasiamah/suite-landing-page.git.***
+- Clone the repo: ***clone https://github.com/Generalasiamah/suite-landing-page.git.*** <br>
+- Download zip: ***https://github.com/Generalasiamah/suite-landing-page/archive/refs/heads/master.zip***
+
+<br> Contact Me: <br>
+---
+-Email : easiamah81@gmail.com <br>
+-linkedin: https://www.linkedin.com/mwlite/in/asiamah-emmanuel <br>
+-twitter: https://twitter.com/generaleasiamah <br>
+
+#opentowork
