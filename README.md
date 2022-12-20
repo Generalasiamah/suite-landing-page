@@ -14,9 +14,9 @@ subtle yet makes for a beautiful outlook. The users of your app are meant to be 
 
 <br> Links: <br>
 ---
--[Live Preview hosted on Netlify](https://stellar-donut-3900b3.netlify.app) <br>
--[Live Preview hosted on Github pages](https://generalasiamah.github.io/suite-landing-page/)
+- [Live Preview hosted on Netlify](https://stellar-donut-3900b3.netlify.app) <br>
+- [Live Preview hosted on Github pages](https://generalasiamah.github.io/suite-landing-page/)
 
 <br> Quick Start: <br>
 ---
--
+- Clone the repo: ***clone https://github.com/Generalasiamah/suite-landing-page.git.***
