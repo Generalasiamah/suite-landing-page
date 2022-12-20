@@ -313,7 +313,8 @@ and (max-width: 900px) {
     }
     
     .arch{
-       margin-left: 0;
+       margin: 0 auto 0 auto;
+       transform: scale(0.7);
     }
 
     .phone-images{
